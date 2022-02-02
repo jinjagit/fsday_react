@@ -28,6 +28,9 @@ const [filterText, setFilterText] = useState('');
 Brent: _"useState here is used to tell React 'give me a state value '' '. I want to reference it with the name filterText and update it with setFilterText"_
 https://reactjs.org/docs/hooks-reference.html#basic-hooks
 
+Video: [Introducing Hooks: ReactConf 2018](https://youtu.be/dpw9EHDh2bM?t=682)
+- _"What is a hook? A hook is a function, provided by react, that lets you hook into React functions from your functional components"_, Dan Abramov
+- Don't call hooks inside a conditional, since order of declaration matters!
 ------------------------------------------------------------------------
 
 # Getting Started with Create React App

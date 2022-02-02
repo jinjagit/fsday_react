@@ -38,5 +38,10 @@
 }
 
 .container {
+  display: table; 
   padding: 20px;
+}
+
+.row {
+  display: table-row;
 }
