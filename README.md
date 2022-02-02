@@ -19,9 +19,9 @@ return (
 );
 ```
 
+Build a static version _before_ adding interactivity / dynamism - obvious, but I rarely do this in practice!
 
-
-
+------------------------------------------------------------------------
 
 # Getting Started with Create React App
 
