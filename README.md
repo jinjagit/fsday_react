@@ -2,7 +2,7 @@
 
 Learned:
 
-Empty wrappers: <> </>
+Empty wrappers: `<> </>`
 
 Nice conditional pattern:
 ```javascript
