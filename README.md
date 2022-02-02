@@ -21,6 +21,13 @@ return (
 
 Build a static version _before_ adding interactivity / dynamism - obvious, but I rarely do this in practice!
 
+'Aha' moment:
+``` javascript
+const [filterText, setFilterText] = useState('');
+```
+Brent: _"useState here is used to tell React 'give me a state value '' '. I want to reference it with the name filterText and update it with setFilterText"_
+https://reactjs.org/docs/hooks-reference.html#basic-hooks
+
 ------------------------------------------------------------------------
 
 # Getting Started with Create React App
