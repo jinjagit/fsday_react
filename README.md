@@ -1,3 +1,28 @@
+# TIL:
+
+Learned:
+
+Empty wrappers: <> </>
+
+Nice conditional pattern:
+```javascript
+let content;
+if (isLoggedIn) {
+  content = <AdminPanel />;
+} else {
+  content = <LoginForm />;
+}
+return (
+  <div>
+    {content}
+  </div>
+);
+```
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
